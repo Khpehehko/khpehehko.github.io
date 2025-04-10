@@ -1,0 +1,28 @@
+p {
+    color:black;
+    font-size:16px;
+}
+h1{ 
+    color:blue;
+    font-size:48px;
+}
+h2{
+    color:blue;
+    font-size:36px;
+}
+h3{
+    color:blue;
+    font-size:24px;
+}
+ul{
+    color:rgb(255, 0, 0);
+}
+
+.green-paragraph{
+    color:rgb(0, 100, 0);
+    font-size:12px;
+}
+
+hr{
+    color:blue;
+}
