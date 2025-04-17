@@ -65,6 +65,9 @@ a:hover,a:active {
 }
 
 ul {
-    font-size: 72pt;
     list-style: none;
+}
+
+li {
+    font-size: 72pt;
 }
