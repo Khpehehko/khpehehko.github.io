@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Umbrella;
+    font-size: 96pt;
+}
+@font-face { font-family: Umbrella;
+    src: url(Umbrella-Regular.otf);
+}
+
+h1 {
+    color:ghostwhite;
+    font-family: Umbrella;
+    font-weight: lighter;
+    font-size: 180pt;
+    text-align: center;
+}
+
+a:link,a:visited {
+    color:ghostwhite;
+    text-decoration:none;
+}
+
+a:hover,a:active {
+    color:aquamarine;
+    font-size: 128pt;
+}
