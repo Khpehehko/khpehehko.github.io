@@ -18,6 +18,10 @@ body {
     color:ghostwhite;
 }
 
+.link:hover,:active {
+    color:aquamarine;
+}
+
 h1 {
     font-family: Umbrella;
     font-size: 48pt;
