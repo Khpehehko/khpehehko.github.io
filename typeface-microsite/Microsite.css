@@ -32,7 +32,7 @@ h1:hover {
 
 h2 {
     font-family: Umbrella;
-    font-size: 48pt;
+    font-size: 72pt;
 }
 
 hr {
@@ -55,11 +55,6 @@ li {
 }
 
 li:hover {
-    color:aquamarine;
-    font-size: 72pt;
-}
-
-a:hover,a:active {
     color:aquamarine;
     font-size: 72pt;
 }
