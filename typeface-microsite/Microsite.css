@@ -51,6 +51,7 @@ a:link,a:visited {
 
 a:hover,a:active {
     color:aquamarine;
+    transition: 1s;
 }
 
 ul {
