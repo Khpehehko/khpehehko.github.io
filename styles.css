@@ -1,3 +1,31 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
+    font-family: Umbrella;
+    font-size: 96pt;
+}
+
+h1 {
+    color:ghostwhite;
+    font-family: Umbrella;
+    font-weight: lighter;
+    font-size: 180pt;
+    text-align: center;
+}
+
+@font-face { Umbrella;
+    src: url(Umbrella-Regular.otf);
+}
+
+a:link{
+    color:ghostwhite;
+    text-decoration:none;
+}
+
+a:hover{
+    color:aquamarine;
+    font-size: 128pt;
+}
+
+hr {
+    color:ghostwhite;
 }
