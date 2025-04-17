@@ -21,6 +21,10 @@ a:link{
     text-decoration:none;
 }
 
+a:visited{
+    color:ghostwhite;
+}
+
 a:hover{
     color:aquamarine;
     font-size: 128pt;
