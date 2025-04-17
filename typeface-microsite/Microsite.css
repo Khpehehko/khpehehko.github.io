@@ -25,11 +25,13 @@ body {
 h1 {
     font-family: Umbrella;
     font-size: 320pt;
+    font-weight: normal;
     line-height: 25%;
 }
 
 h2 {
     font-family: Umbrella;
+    font-weight: normal;
     font-size: 96pt;
 }
 
