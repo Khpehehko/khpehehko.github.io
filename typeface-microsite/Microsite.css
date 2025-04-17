@@ -5,11 +5,19 @@ body {
     font-size: 96pt;
 }
 @font-face { font-family: Umbrella;
-    src: url(Umbrella-Regular.otf;)
+    src: url(Umbrella-Regular.otf;) format(otf)
+}
+
+.imgbox {
+
 }
 
 .center {
     text-align: center;
+}
+
+.imgoverlay {
+    position:absolute;
 }
 
 .white {
@@ -26,6 +34,7 @@ h1 {
     font-family: Umbrella;
     font-size: 320pt;
     line-height: 25%;
+    color:black;
 }
 
 h2 {
@@ -40,6 +49,7 @@ hr {
 p {
     font-family: Umbrella;
     font-size: 48pt;
+    line-height: 25%;
 }
 
 a:link,a:visited {
