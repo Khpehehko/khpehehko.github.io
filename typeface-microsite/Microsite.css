@@ -51,12 +51,17 @@ ul {
 
 li {
     font-size: 48pt;
+    transition: 1s
+}
+
+li:hover {
+    color:aquamarine;
+    font-size: 72pt;
 }
 
 a:hover,a:active {
     color:aquamarine;
     font-size: 72pt;
-    transition: 1s;
 }
 
 a:link,a:visited {
