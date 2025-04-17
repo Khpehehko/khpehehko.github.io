@@ -5,19 +5,11 @@ body {
     font-size: 96pt;
 }
 @font-face { font-family: Umbrella;
-    src: url(Umbrella-Regular.otf;) format(otf)
-}
-
-.imgbox {
-
+    src: url(Umbrella-Regular.woff;) format(woff)
 }
 
 .center {
     text-align: center;
-}
-
-.imgoverlay {
-    position:absolute;
 }
 
 .white {
@@ -32,6 +24,7 @@ body {
 
 h1 {
     font-family: Umbrella;
+    text-transform: uppercase;
     font-size: 320pt;
     line-height: 25%;
     color:black;
