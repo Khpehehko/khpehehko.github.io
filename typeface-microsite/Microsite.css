@@ -24,11 +24,16 @@ body {
 h1 {
     font-family: Umbrella;
     font-size: 320pt;
+    line-height: 25%;
 }
 
 h2 {
     font-family: Umbrella;
     font-size: 96pt;
+}
+
+hr {
+    color: ghostwhite;
 }
 
 p {
