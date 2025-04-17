@@ -62,4 +62,5 @@ li:hover {
 a:link,a:visited {
     color:ghostwhite;
     text-decoration:none;
+    transition: 1s;
 }
