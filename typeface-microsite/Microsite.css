@@ -16,6 +16,7 @@ body {
     color:ghostwhite;
 }
 
+
 .centerimg {
     display: block;
     margin: auto;
@@ -24,10 +25,13 @@ body {
 
 h1 {
     font-family: Umbrella;
-    text-transform: uppercase;
     font-size: 320pt;
     line-height: 25%;
     color:black;
+}
+
+h1:hover {
+    color: aquamarine;
 }
 
 h2 {
