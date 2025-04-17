@@ -16,16 +16,16 @@ h1 {
     src: url(Umbrella-Regular.otf);
 }
 
-a:link{
+a:link {
     color:ghostwhite;
     text-decoration:none;
 }
 
-a:visited{
+a:visited {
     color:ghostwhite;
 }
 
-a:hover{
+a:hover {
     color:aquamarine;
     font-size: 128pt;
 }
