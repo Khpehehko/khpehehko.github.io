@@ -4,8 +4,9 @@ body {
     text-decoration: none;
     font-size: 96pt;
 }
+
 @font-face { font-family: Umbrella;
-    src: url(Umbrella-Regular.woff;) format(woff)
+    src: url(Umbrella-Regular.woff;)format(woff)
 }
 
 .imgoverlay {
@@ -23,11 +24,9 @@ body {
     color:ghostwhite;
 }
 
-
-.centerimg {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px
+.black {
+    color: black;
+    font-size: 1vw;
 }
 
 h1 {
