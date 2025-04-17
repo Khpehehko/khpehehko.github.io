@@ -3,7 +3,7 @@ body {
     font-family: Umbrella;
     text-decoration: none;
     font-size: 96pt;
-    font-smooth: always;
+    outline: none;
 }
 
 @font-face { font-family: Umbrella;
