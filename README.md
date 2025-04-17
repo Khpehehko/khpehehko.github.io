@@ -1,2 +1,3 @@
 # khpehehko.github.io
-This is my TypeLover Website
+Hi! This is James and the link below goes to my TypeLover Website.
+khpehehko.github.io
