@@ -9,19 +9,6 @@ body {
     src: url(Umbrella-Regular.woff;)format(woff)
 }
 
-.imgoverlay {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-.txtoverlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
 .center {
     text-align: center;
 }
@@ -69,5 +56,5 @@ ul {
 }
 
 li {
-    font-size: 72pt;
+    font-size: 48pt;
 }
