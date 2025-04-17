@@ -59,6 +59,11 @@ li:hover {
     font-size: 72pt;
 }
 
+.hover {
+    color:aquamarine;
+    font-size: 72pt;
+}
+
 a:hover,a:active {
     color:aquamarine;
     font-size: 72pt;
