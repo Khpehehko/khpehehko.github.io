@@ -1,6 +1,7 @@
 body {
     background-color: rgb(0, 0, 0);
     font-family: Umbrella;
+    text-decoration: none;
     font-size: 96pt;
 }
 @font-face { font-family: Umbrella;
