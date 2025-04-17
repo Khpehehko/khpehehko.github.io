@@ -23,11 +23,11 @@ h1 {
     font-family: Umbrella;
     font-size: 320pt;
     line-height: 25%;
+    transition: 1s;
 }
 
 h1:hover {
     color: aquamarine;
-    transition: 1s;
 }
 
 h2 {
