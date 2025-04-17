@@ -3,6 +3,9 @@ body {
     font-family: Umbrella;
     font-size: 96pt;
 }
+@font-face { font-family: Umbrella;
+    src: url(Umbrella-Regular.otf);
+}
 
 h1 {
     color:ghostwhite;
@@ -10,10 +13,6 @@ h1 {
     font-weight: lighter;
     font-size: 180pt;
     text-align: center;
-}
-
-@font-face { Umbrella;
-    src: url(Umbrella-Regular.otf);
 }
 
 a:link,a:visited {
