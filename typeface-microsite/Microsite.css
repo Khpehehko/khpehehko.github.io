@@ -65,7 +65,7 @@ a:link {
     transition: 1s;
 }
 
-a:link {
+a:hover {
     color: aquamarine;
     text-decoration:none;
     font-size: 72pt;
