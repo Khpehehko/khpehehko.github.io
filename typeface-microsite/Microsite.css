@@ -50,3 +50,7 @@ a:link,a:visited {
 a:hover,a:active {
     color:aquamarine;
 }
+
+ul {
+    list-style-type: none;
+}
