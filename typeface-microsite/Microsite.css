@@ -24,14 +24,9 @@ body {
     color:ghostwhite;
 }
 
-.black {
-    color: black;
-    font-size: 1vw;
-}
-
 h1 {
     font-family: Umbrella;
-    font-size: 320pt;
+    font-size: 1vw;
     line-height: 25%;
     color:black;
 }
