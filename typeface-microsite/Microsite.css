@@ -45,9 +45,12 @@ p {
     line-height: 25%;
 }
 
-a:link,a:visited {
-    color:ghostwhite;
-    text-decoration:none;
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 48pt;
 }
 
 a:hover,a:active {
@@ -56,10 +59,7 @@ a:hover,a:active {
     transition: 1s;
 }
 
-ul {
-    list-style: none;
-}
-
-li {
-    font-size: 48pt;
+a:link,a:visited {
+    color:ghostwhite;
+    text-decoration:none;
 }
