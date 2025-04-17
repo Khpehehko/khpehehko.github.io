@@ -27,6 +27,7 @@ h1 {
 
 h1:hover {
     color: aquamarine;
+    transition: 1s;
 }
 
 h2 {
@@ -51,6 +52,7 @@ a:link,a:visited {
 
 a:hover,a:active {
     color:aquamarine;
+    font-size: 72pt;
     transition: 1s;
 }
 
