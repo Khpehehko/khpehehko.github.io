@@ -10,6 +10,12 @@ body {
 }
 
 .imgoverlay {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.txtoverlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,8 +32,8 @@ body {
 
 h1 {
     font-family: Umbrella;
-    font-size: 1vw;
-    line-height: 25%;
+    font-size: 1.5vw;
+    line-height: 20%;
     color:black;
 }
 
