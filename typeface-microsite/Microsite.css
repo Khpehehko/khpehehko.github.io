@@ -10,15 +10,16 @@ body {
 .center {
     text-align: center;
 }
+
 .white {
     color:ghostwhite;
 }
+
 .centerimg {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 100%;
   }
-
 
 h1 {
     font-family: Umbrella;
