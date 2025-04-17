@@ -59,15 +59,7 @@ li:hover {
     font-size: 72pt;
 }
 
-a:link {
+a:link,a:visited {
     color:ghostwhite;
     text-decoration:none;
-    font-size: 48pt;
-    transition: 1s;
-}
-
-a:hover,:visited {
-    color: aquamarine;
-    text-decoration:none;
-    font-size: 72pt;
 }
