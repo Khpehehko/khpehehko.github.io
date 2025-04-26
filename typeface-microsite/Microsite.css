@@ -1,65 +1,35 @@
 body {
     background-color: rgb(0, 0, 0);
     font-family: Umbrella;
-    text-decoration: none;
-    font-size: 48pt;
+    color: ghostwhite;
+    font-size: 5vw;
 }
 
 @font-face { font-family: Umbrella;
     src: url(Umbrella-Regular.woff;)format(woff)
-
 }
 
-.center {
-    text-align: center;
-}
-
-.white {
+.title{
+    font-family: Umbrella;
     color:ghostwhite;
+    font-size: 20vw;
+    text-align: center;
+    margin: auto;
+
 }
 
-.link:hover,:active {
+.title:hover {
     color:aquamarine;
 }
 
-h1 {
-    font-family: Umbrella;
-    font-size: 48pt;
-    line-height: 0.8;
-    transition: 1s;
+
+.link{
+    color:ghostwhite;
+    text-decoration: none;
+    transition: 0.25s;
 }
 
-h1:hover {
-    color: aquamarine;
-}
-
-h2 {
-    font-family: Umbrella;
-    font-size: 48pt;
-}
-
-hr {
-    color: ghostwhite;
-}
-
-p {
-    font-family: Umbrella;
-    font-size: 48pt;
-    line-height: 25%;
-}
-
-ul {
-    list-style: none;
-    
-}
-
-li {
-    font-size: 48pt;
-    transition: 1s
-}
-
-li:hover {
+.link:hover{
     color:aquamarine;
-    font-size: 72pt;
+    text-decoration: none;
 }
-
