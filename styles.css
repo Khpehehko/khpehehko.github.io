@@ -1,7 +1,7 @@
 body {
     background-color: rgb(0, 0, 0);
     font-family: Umbrella;
-    font-size: 96pt;
+    font-size: 72pt;
 }
 @font-face { font-family: Umbrella;
     src: url(Umbrella-Regular.otf);
@@ -18,8 +18,10 @@ h1 {
 p{
     color:ghostwhite;
     font-family: Umbrella;
-    font-size: 128pt;
-    text-align: center;
+    font-size: 144pt;
+    left:20px;
+    margin:50px;
+    width:700px;
     transition:1s;
     transition-timing-function: ease;
 }
@@ -36,7 +38,7 @@ a:link,a:visited {
 
 a:hover,a:active {
     color:aquamarine;
-    scale:1.2;
+    font-size:96pt;
     transition:1s;
 }
 
