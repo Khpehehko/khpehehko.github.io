@@ -12,7 +12,7 @@ h1 {
     font-family: Umbrella;
     font-size: 180pt;
     text-align: center;
-    position:fixed;
+    position:absolute;
 }
 
 p{
