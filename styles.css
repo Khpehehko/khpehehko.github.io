@@ -22,7 +22,8 @@ a:link,a:visited {
 
 a:hover,a:active {
     color:aquamarine;
-    font-size: 128pt;
+    scale:1.2;
+    transition:1s;
 }
 
 hr {
