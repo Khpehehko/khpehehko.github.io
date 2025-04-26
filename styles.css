@@ -14,6 +14,19 @@ h1 {
     text-align: center;
 }
 
+p{
+    color:ghostwhite;
+    font-family: Umbrella;
+    font-size: 128pt;
+    text-align: center;
+    transition:1s;
+    transition-timing-function: ease;
+}
+
+p:hover {
+    color:aquamarine;
+}
+
 a:link,a:visited {
     color:ghostwhite;
     text-decoration:none;
