@@ -1,12 +1,13 @@
+@font-face { font-family: 'Umbrella';
+    src: url('Umbrella-Regular.woff') format(woff),
+    url('Umbrella-Regular.woff2') format(woff2);
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: Umbrella;
     font-size: 5vw;
     text-align: center;
-}
-@font-face { font-family: 'Umbrella';
-    src: url('Umbrella-Regular.woff') format(woff),
-    url('Umbrella-Regular.woff2') format(woff2);
 }
 
 .welcome{
