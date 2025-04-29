@@ -7,7 +7,7 @@ body {
     width: 100vw;
 }
 
-@font-face { font-family: "Umbrella";
+@font-face { font-family: 'Umbrella';
     src: url('Umbrella-Regular.woff') format(woff),
     url('Umbrella-Regular.woff2') format(woff2);
 }
