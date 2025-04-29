@@ -8,7 +8,7 @@ body {
 }
 
 @font-face { font-family: Umbrella;
-    src: url(Umbrella-Regular.woff;)format(woff)
+    src: url(Umbrella-Regular.woff;) format(woff);
 }
 
 @keyframes Loopingtxt {
@@ -34,7 +34,7 @@ body {
 
 .bigtitle{
     position:relative;
-    font-family: Umbrella;
+    font-family: "Umbrella";
     color:ghostwhite;
     font-size: 36vw;
     text-align: left;
@@ -50,15 +50,15 @@ body {
 }
 
 .textbox{
-    position:absolute;
-    display:block;
+    position: absolute;
+    display: block;
     width: fit-content;
     height: fit-content;
     background-color: black;
 }
 
 .glyphbox{
-    display:block;
+    display: block;
     margin-top: 10vw;
     width: fit-content;
     height: fit-content;
@@ -69,7 +69,7 @@ body {
 
 .glyph{
     display: inline-block;
-    font-family: Umbrella;
+    font-family: "Umbrella";
     color:ghostwhite;
     font-size: 7.716vw;
     max-width: 78vw;
@@ -83,8 +83,8 @@ body {
     position: relative;
     text-align: left;
     display: block;
-    font-family: Umbrella;
-    color:ghostwhite;
+    font-family: "Umbrella";
+    color: ghostwhite;
     font-size: 15.432vw;
     margin-left: 6.35vw;
     min-width: 300vw;
@@ -100,18 +100,18 @@ body {
 .smltitle{
     font-family: Helvetica, sans-serif;
     color: ghostwhite;
-    margin-top:10vh;
+    margin-top: 10vh;
     font-size: 2.2vw;
     margin-left: 6.35vw;
 }
 
 .link{
-    color:ghostwhite;
+    color: ghostwhite;
     text-decoration: none;
 }
 
 .link:hover{
-    color:aquamarine;
+    color: aquamarine;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ p{
     margin-top: 11vw;
     margin-bottom: 1.5vw;
     max-width: 87vw;
-    position:relative;
+    position: relative;
 }
 
 .linebreak {
