@@ -1,31 +1,113 @@
 body {
     background-color: rgb(0, 0, 0);
-    font-family: Umbrella;
+    font-family: Helvetica, sans-serif;
     color: ghostwhite;
-    font-size: 5vw;
+    font-size: 1.4vw;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 @font-face { font-family: Umbrella;
     src: url(Umbrella-Regular.woff;)format(woff)
 }
 
-.title{
+@keyframes Loopingtxt {
+    0%{
+        margin-left:6.35vw;
+        color: ghostwhite;
+    }
+    20%{
+        color: aquamarine;
+    }
+    50%{
+        margin-left:-166.35vw;
+        color: aquamarine;
+    }
+    70%{
+        color: ghostwhite;
+    }
+    100%{
+        margin-left:6.35vw;
+        color: ghostwhite;
+    }
+}
+
+.bigtitle{
+    position:relative;
     font-family: Umbrella;
     color:ghostwhite;
-    font-size: 20vw;
-    text-align: center;
-    margin: auto;
+    font-size: 36vw;
+    text-align: left;
+    margin-top: -16vw;
+    margin-bottom: -5vw;
+    transition: 1250ms;
+    transition-timing-function: ease;
 }
 
-.title:hover {
+.bigtitle:hover {
     color:aquamarine;
+    margin-left: -40vw;
 }
 
+.textbox{
+    position:absolute;
+    display:block;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}
+
+.glyphbox{
+    display:block;
+    margin-top: 10vw;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 15vw;
+    margin-bottom: -10vw;
+    background-color: black;
+}
+
+.glyph{
+    display: inline-block;
+    font-family: Umbrella;
+    color:ghostwhite;
+    font-size: 7.716vw;
+    max-width: 78vw;
+    margin-left: 6.35vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    line-height: 9vw;
+}
+
+.biglyph{
+    position: relative;
+    text-align: left;
+    display: block;
+    font-family: Umbrella;
+    color:ghostwhite;
+    font-size: 15.432vw;
+    margin-left: 6.35vw;
+    min-width: 300vw;
+    margin-top: 1vw;
+    margin-bottom: -9vw;
+    animation-name: Loopingtxt;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+.smltitle{
+    font-family: Helvetica, sans-serif;
+    color: ghostwhite;
+    margin-top:10vh;
+    font-size: 2.2vw;
+    margin-left: 6.35vw;
+}
 
 .link{
     color:ghostwhite;
     text-decoration: none;
-    transition: 0.25s;
 }
 
 .link:hover{
@@ -34,5 +116,24 @@ body {
 }
 
 p{
-    text-align: center;
+    text-align: left;
+    margin-left: 6.4vw;
+    min-width: 48vw;
+    max-width: 61vw;
+}
+
+.right {
+    text-align: right;
+    margin-top: 11vw;
+    margin-bottom: 1.5vw;
+    max-width: 87vw;
+    position:relative;
+}
+
+.linebreak {
+    position: relative;
+    display: inline-block;
+    height: 1px;
+    min-width: 200vw;
+    background-color: ghostwhite;
 }
