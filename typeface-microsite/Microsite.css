@@ -35,7 +35,7 @@ body {
 
 .bigtitle{
     position:relative;
-    font-family: "Umbrella";
+    font-family: 'Umbrella';
     color:ghostwhite;
     font-size: 36vw;
     text-align: left;
@@ -70,7 +70,7 @@ body {
 
 .glyph{
     display: inline-block;
-    font-family: "Umbrella";
+    font-family: 'Umbrella';
     color:ghostwhite;
     font-size: 7.716vw;
     max-width: 78vw;
@@ -84,7 +84,7 @@ body {
     position: relative;
     text-align: left;
     display: block;
-    font-family: "Umbrella";
+    font-family: 'Umbrella';
     color: ghostwhite;
     font-size: 15.432vw;
     margin-left: 6.35vw;
