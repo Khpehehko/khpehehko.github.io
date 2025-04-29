@@ -8,8 +8,8 @@ body {
 }
 
 @font-face { font-family: "Umbrella";
-    src: url('Umbrella-Regular.woff') format(woff);
-    src: url('Umbrella-Regular.woff2') format(woff2);
+    src: url('Umbrella-Regular.woff') format(woff),
+    url('Umbrella-Regular.woff2') format(woff2);
 }
 
 @keyframes Loopingtxt {
