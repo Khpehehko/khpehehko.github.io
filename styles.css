@@ -4,8 +4,9 @@ body {
     font-size: 5vw;
     text-align: center;
 }
-@font-face { font-family: Umbrella;
-    src: url(Umbrella-Regular.otf);
+@font-face { font-family: "Umbrella";
+    src: url('Umbrella-Regular.woff') format(woff);
+    src: url('Umbrella-Regular.woff2') format(woff2);
 }
 
 .welcome{
