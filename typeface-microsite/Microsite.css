@@ -340,8 +340,8 @@ p{
     position: absolute;
     display: inline-block;
     font-family: 'Umbrella';
-    font-size: 95vh;
-    transform:translate(53%,-27%);
+    font-size: 49vh;
+    transform:translate(86.4%,-5%);
     transition-duration: 250ms;
     opacity: 0;
 }
