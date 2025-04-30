@@ -261,7 +261,7 @@ p{
 #imgbox1 {
     position: relative;
     display: inline-block;
-    width: 100vw;
+    width: 42.6vw;
     height: 80vh;
     margin-left: 6.4vw;
     margin-top: 1vw;
@@ -272,7 +272,7 @@ p{
 #imgbox2 {
     position: relative;
     display: inline-block;
-    width: 100vw;
+    width: 75vw;
     height: 80vh;
     margin-left: 6.4vw;
     margin-top: 1vw;
@@ -283,7 +283,7 @@ p{
 #imgbox3 {
     position: relative;
     display: inline-block;
-    width: 100vw;
+    width: 85vw;
     height: 80vh;
     margin-left: 6.4vw;
     margin-top: 1vw;
@@ -293,7 +293,7 @@ p{
 
 #image {
     display: inline-block;
-        position: absolute;
+    position: absolute;
     margin-left: 6.4vw;
     height: 80vh;
 }
