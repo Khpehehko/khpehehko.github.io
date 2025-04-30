@@ -33,6 +33,27 @@ body {
     }
 }
 
+@keyframes Loopingtxt2 {
+    0%{
+        margin-left:-266.35vw;
+        color: ghostwhite;
+    }
+    20%{
+        color: aquamarine;
+    }
+    50%{
+        margin-left:-6.35vw;
+        color: aquamarine;
+    }
+    70%{
+        color: ghostwhite;
+    }
+    100%{
+        margin-left:-266.35vw;
+        color: ghostwhite;
+    }
+}
+
 /*@keyframes zoomin {
     0%{
         font-size: 5.432vw;
@@ -65,7 +86,7 @@ body {
 .bigtitle{
     position:relative;
     font-family: 'Umbrella';
-    color:ghostwhite;
+    color: ghostwhite;
     font-size: 36vw;
     text-align: left;
     margin-top: -16vw;
@@ -77,7 +98,7 @@ body {
 .bigtitle:hover {
     position:relative;
     font-family: 'Umbrella';
-    color:aquamarine;
+    color: aquamarine;
     font-size: 36vw;
     text-align: left;
     margin-top: -16vw;
@@ -129,6 +150,23 @@ body {
     margin-top: 1vw;
     margin-bottom: -9vw;
     animation-name: Loopingtxt;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#samplesentence2{
+    position: relative;
+    text-align: left;
+    display: block;
+    font-family: 'Umbrella';
+    color: ghostwhite;
+    font-size: 15.432vw;
+    margin-left: 6.35vw;
+    min-width: 300vw;
+    margin-top: 1vw;
+    margin-bottom: -9vw;
+    animation-name: Loopingtxt2;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
@@ -220,30 +258,35 @@ p{
     background-color: ghostwhite;
 }
 
-#image1 {
+.imgbox {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    background-color: black;
+}
+
+#image {
     display: inline-block;
     margin-left: 6.4vw;
-    margin-top: 1vw;
-    position: relative;
-    width: 30vw;
+    position: absolute;
+    height: 80vh;
 }
 
 #image2 {
     display: inline-block;
     margin-left: 6.4vw;
-    margin-top: 1vw;
-    margin-bottom: -4vw;
-    position: relative;
-    width: 30vw;
+    position: absolute;
+    height: 80vh;
 }
 
 #image3 {
     display: inline-block;
-    position: relative;
-    margin-left: 37.75vw;
-    margin-bottom: -34vw;
-    transform:translateY(-90.33%);
-    width: 65.6vw;
+    position: absolute;
+    margin-left: 6.4vw;
+    height: 80vh;
 }
 
 .tight {
