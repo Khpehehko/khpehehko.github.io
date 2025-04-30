@@ -258,11 +258,34 @@ p{
     background-color: ghostwhite;
 }
 
-.imgbox {
+#imgbox1 {
     position: relative;
     display: inline-block;
     width: 100vw;
     height: 80vh;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    background-color: black;
+}
+
+#imgbox2 {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 80vh;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    background-color: black;
+}
+
+#imgbox3 {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 80vh;
+    margin-left: 6.4vw;
     margin-top: 1vw;
     margin-bottom: 0vw;
     background-color: black;
@@ -270,15 +293,15 @@ p{
 
 #image {
     display: inline-block;
+        position: absolute;
     margin-left: 6.4vw;
-    position: absolute;
     height: 80vh;
 }
 
 #image2 {
     display: inline-block;
-    margin-left: 6.4vw;
     position: absolute;
+    margin-left: 6.4vw;
     height: 80vh;
 }
 
@@ -287,6 +310,60 @@ p{
     position: absolute;
     margin-left: 6.4vw;
     height: 80vh;
+}
+
+#decor1 {
+    color: aquamarine;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Umbrella';
+    font-size: 100vh;
+    transform:translate(43%,-26%);
+    transition-duration: 250ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#decor2 {
+    color: aquamarine;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Umbrella';
+    font-size: 95vh;
+    transform:translate(53%,-27%);
+    transition-duration: 250ms;
+    opacity: 0;
+}
+
+#decor3 {
+    color: aquamarine;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Umbrella';
+    font-size: 95vh;
+    transform:translate(53%,-27%);
+    transition-duration: 250ms;
+    opacity: 0;
+}
+
+.caption {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4vw;
+    margin: 0vw;
+    text-align: left;
+}
+
+#imgbox1:hover #decor1{
+    visibility: visible;
+    opacity: 0.8;
+}
+
+#imgbox2:hover #decor2{
+    opacity: 0.8;
+}
+
+#imgbox3:hover #decor3{
+    opacity: 0.8;
 }
 
 .tight {
