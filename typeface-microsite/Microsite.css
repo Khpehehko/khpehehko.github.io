@@ -33,6 +33,35 @@ body {
     }
 }
 
+/*@keyframes zoomin {
+    0%{
+        font-size: 5.432vw;
+        line-height: 5vw;
+        color: ghostwhite;
+    }
+    5%{
+        font-size: 15.432vw;;
+        line-height: 13vw;
+        color: aquamarine;
+    }
+    50%{
+        font-size: 15.432vw;;
+        line-height: 13vw;
+        color: aquamarine;
+    }
+    55%{
+        font-size: 5.432vw;
+        line-height: 5vw;
+        color: ghostwhite;
+    }
+    100%{
+        font-size: 5.432vw;
+        line-height: 5vw;
+        color: ghostwhite;
+    }
+}*/
+
+
 .bigtitle{
     position:relative;
     font-family: 'Umbrella';
@@ -46,14 +75,22 @@ body {
 }
 
 .bigtitle:hover {
+    position:relative;
+    font-family: 'Umbrella';
     color:aquamarine;
+    font-size: 36vw;
+    text-align: left;
+    margin-top: -16vw;
     margin-left: -40vw;
+    margin-bottom: -5vw;
+    transition: 1250ms;
+    transition-timing-function: ease;
 }
 
 .textbox{
-    position: absolute;
+    position: relative;
     display: block;
-    width: fit-content;
+    width: 100vw;
     height: fit-content;
     background-color: black;
 }
@@ -80,7 +117,7 @@ body {
     line-height: 9vw;
 }
 
-.biglyph{
+#samplesentence{
     position: relative;
     text-align: left;
     display: block;
@@ -97,6 +134,34 @@ body {
     animation-timing-function: ease;
 }
 
+.biglyph{
+    position: relative;
+    text-align: left;
+    display: block;
+    font-family: 'Umbrella';
+    color: ghostwhite;
+    font-size: 5vw;
+    margin-left: 6.35vw;
+    width: 65vw;
+    line-height: 5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    transition-duration: 750ms;
+    transition-timing-function: ease;
+    /*animation-name: zoomin;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;*/
+}
+
+.biglyph:hover {
+    color: aquamarine;
+    font-size: 7vw;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+    width: 100vw;
+    line-height: 5vw;
+}
 
 .smltitle{
     font-family: Helvetica, sans-serif;
@@ -138,6 +203,53 @@ p{
     display: inline-block;
     height: 1px;
     min-width: 100vw;
-    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
     background-color: ghostwhite;
+}
+
+#linebreakspecial {
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    min-width: 100vw;
+    margin-top: 0vw;
+    margin-bottom: auto;
+    margin-left: 0px;
+    background-color: ghostwhite;
+}
+
+#image1 {
+    display: inline-block;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    position: relative;
+    width: 30vw;
+}
+
+#image2 {
+    display: inline-block;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    margin-bottom: -4vw;
+    position: relative;
+    width: 30vw;
+}
+
+#image3 {
+    display: inline-block;
+    position: relative;
+    margin-left: 37.75vw;
+    margin-bottom: -34vw;
+    transform:translateY(-90.33%);
+    width: 65.6vw;
+}
+
+.tight {
+    margin-bottom: -10vw;
+}
+
+.hide {
+    opacity: 0;
 }
